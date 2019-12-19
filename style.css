@@ -1,0 +1,44 @@
+body{
+  background: rgb(255, 255, 255);
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+#search{
+  width:300px;
+  height: 30px;
+ border: 1px solid black;
+}
+::placeholder{
+  font-size: medium;
+}
+
+.btn{
+  margin-left: 10px;
+ height: 30px;
+ border-radius: 8px;
+ background-color: white;
+  color: black;
+  border: 1px solid rgb(68, 34, 218);
+  outline: none;
+}
+
+/* .btn:hover {
+  background-color: rgb(68, 34, 218);
+  color: white;
+} */
+.pics{
+  margin: 0 auto;
+ }
+
+ #result{
+   text-align: center;
+ }
+.para {
+}
